@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(104, 2, 104);
+}
+
+main {
+    margin: auto;
+    position: relative;
+    top: 50vh;
+    width: 328px;
+    height: 600px;
+    background-color: white;
+    display: block;
+    border-radius: 10px;
+
+    transform: translate(-0, -50%);
+
+}
+
+main > h1 {
+    text-align: center;
+}
+
+main > p#bem-vindos {
+    padding: 10px;
+    text-align: justify;
+}
+
+#login {
+    margin: 0 0 0 10px;
+    background-color: rgb(104, 2, 104); 
+    color: white;
+    padding: px;
+}
+
